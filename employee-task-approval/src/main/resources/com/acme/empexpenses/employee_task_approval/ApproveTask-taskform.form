@@ -1,0 +1,76 @@
+
+<form id="1862841151">
+<property name="name" value="ApproveTask-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="request_approved" type="CheckBox" id="1734823158">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approved (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="request_in/approved"/>
+<property name="outputBinding" value="request_out/approved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="request_cost" type="InputTextInteger" id="1617967428">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cost (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="request_in/cost"/>
+<property name="outputBinding" value="request_out/cost"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="request_priority" type="InputTextInteger" id="934381068">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;priority (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="request_in/priority"/>
+<property name="outputBinding" value="request_out/priority"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="request_reqDetail" type="InputText" id="1000607227">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reqDetail (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="request_in/reqDetail"/>
+<property name="outputBinding" value="request_out/reqDetail"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="request_reqID" type="InputText" id="632622141">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reqID (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="request_in/reqID"/>
+<property name="outputBinding" value="request_out/reqID"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="employee_empDept" type="InputTextInteger" id="1231931200">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empDept (employee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="employee_in/empDept"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="employee_empDesignation" type="InputText" id="873258176">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empDesignation (employee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="employee_in/empDesignation"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="employee_empID" type="InputText" id="505782649">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empID (employee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="employee_in/empID"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="employee_empName" type="InputText" id="1757558025">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empName (employee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="employee_in/empName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="employee_in" name="#E9E371" type="dataModelerEntry" outId="" value="com.acme.empexpenses.employee_task_approval.employeeDO" id="employee"/>
+<dataHolder inputId="request_in" name="#FF54A7" type="dataModelerEntry" outId="request_out" value="com.acme.empexpenses.employee_task_approval.requestDO" id="request"/>
+</form>

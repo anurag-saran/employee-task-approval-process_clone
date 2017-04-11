@@ -1,0 +1,17 @@
+{
+  "employee": {
+    "com.acme.empexpenses.employee_task_approval.employeeDO": {
+      "empID": "1234",
+      "empName": "Anurag",
+      "empDept": "IT",
+      "empDesignation": "Manager"
+    }
+  },
+  "request": {
+    "com.acme.empexpenses.employee_task_approval.requestDO": {
+      "reqID": "12",
+      "reqDetail": "Laptop - Mac",
+      "cost": 2000,
+      "priority": "1234"
+    }
+  }

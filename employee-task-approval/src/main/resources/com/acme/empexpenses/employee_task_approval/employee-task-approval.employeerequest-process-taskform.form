@@ -1,0 +1,72 @@
+
+<form id="79527846">
+<property name="name" value="employee-task-approval.employeerequest-process-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="7" name="request_reqDetail" type="InputText" id="251308890">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reqDetail (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="request/reqDetail"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="request_reqID" type="InputText" id="1220046121">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reqID (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="request/reqID"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="employee_empDesignation" type="InputText" id="1291896756">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empDesignation (employee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="employee/empDesignation"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="employee_empName" type="InputText" id="1359150694">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empName (employee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="employee/empName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="employee_empID" type="InputText" id="1382391171">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empID (employee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="employee/empID"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="employee_empDept" type="InputTextInteger" id="1734574139">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;empDept (employee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="employee/empDept"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name="cost" type="InputTextInteger" id="742991186">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cost (cost)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cost"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="request_cost" type="InputTextInteger" id="1197478635">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cost (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="request/cost"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="request_priority" type="InputTextInteger" id="836519635">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;priority (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="request/priority"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="cost" value="java.lang.Integer" id="cost"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="employee" value="com.acme.empexpenses.employee_task_approval.employeeDO" id="employee"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="request" value="com.acme.empexpenses.employee_task_approval.requestDO" id="request"/>
+</form>
